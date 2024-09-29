@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+             background: url('second.avif');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 7px;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .project-container{
+            box-shadow: 0px 10px 15px rgb(194, 167, 167);
+            border: 1px solid rgb(242, 36, 180);
+            box-shadow: 0px 10px 15px rgb(220, 117, 117);
+            border-left: 50px;
+            background: url('https://freerangestock.com/sample/139684/sky-blue-flare-bubbles-abstract-background-.jpg');
+        }
+        .project-box{
+            box-shadow: 0px 10px 15px rgb(219, 97, 97);
+            background: url('second.avif');
+            border: 1px solid rgb(201, 187, 187);
+        }
+        button:hover{
+            color:black;
+            background-color: rgb(194, 209, 217);
+        }
+        button{
+            background-color: rgba(246, 188, 198,0.3);
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+                margin: 10px;
+            }
+
+            button {
+                width: 100%;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            .btn-container {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+       
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Projects</a>
+        <a href="cc.html">Contact</a>
+    </nav>
+    <div class="project-container"></div>
+        <h2>My Project</h2>
+
+    
+    <div class="project-box">
+        <p style="margin-left: 10px; padding: 10px">I have made a project on front end mainly involves the validation, it means the user enter the input it checks the appropriate condition then valid the result. And I 
+            made my project as a restaurant menu order form using html, css, and javascript.
+        </p>
+        <button class="btn-container"><a href="food1.html" ;">View</a></button>
+    </div>
+</body>
+</html>
+
